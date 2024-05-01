@@ -1,20 +1,24 @@
 {
-"@context": "https://schema.org/",
-"@type": "Product",
-"name": "Plataforma de Gestión de Publicaciones en Redes Sociales para Publica Media",
-"description": "Una plataforma diseñada específicamente para Publica Media, C.A, para gestionar eficientemente las publicaciones en redes sociales. Utiliza el protocolo MQTT para una comunicación eficiente entre sus estaciones de trabajo distantes y el centro de control central, incluso con ancho de banda limitado.",
-"brand": {
-"@type": "Brand",
-"name": "Publica Media"
-},
-"features": [
-"Eficiente manejo de mensajes con MQTT",
-"Plataforma independiente sin necesidad de servidores dedicados",
-"Adaptabilidad a ancho de banda limitado"
-],
-"exampleOfWork": {
-"@type": "CreativeWork",
-"name": "Sistema de monitorización de cultivos agrícolas",
-"description": "Implementación de MQTT en un sistema de monitorización de cultivos agrícolas, demostrando su eficacia incluso en entornos con restricciones de ancho de banda."
-}
+  "@context": "https://schema.org/",
+  "@type": "CreativeWork",
+  "name": "Sistema de monitorización de cultivos agrícolas",
+  "description": "Implementación de MQTT en un sistema de monitorización de cultivos agrícolas, demostrando su eficacia incluso en entornos con restricciones de ancho de banda.",
+  "about": {
+    "@type": "Thing",
+    "name": "Cultivos agrícolas"
+  },
+  "uses": {
+    "@type": "Product",
+    "name": "Plataforma de Gestión de Publicaciones en Redes Sociales para Publica Media",
+    "description": "Una plataforma diseñada específicamente para Publica Media, C.A, para gestionar eficientemente las publicaciones en redes sociales. Utiliza el protocolo MQTT para una comunicación eficiente entre sus estaciones de trabajo distantes y el centro de control central, incluso con ancho de banda limitado.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Publica Media"
+    },
+    "features": [
+      "Eficiente manejo de mensajes con MQTT",
+      "Plataforma independiente sin necesidad de servidores dedicados",
+      "Adaptabilidad a ancho de banda limitado"
+    ]
+  }
 }
